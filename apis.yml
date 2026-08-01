@@ -1,8 +1,27 @@
 aid: pilotly
 name: Pilotly
-description: Pilotly is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pilotly is a media and content audience-testing research platform used by studios,
+  streamers, and brands to test films, trailers, series, and advertising with targeted audiences
+  before release. Its managed service pairs clients with expert research managers who handle survey
+  design, audience targeting, and insights synthesis, while a Study Tracker guides each project through
+  five stages (Requested, Setting up, Fielding, Analysis, Complete). Content is fielded through a secure,
+  DRM-protected and watermarked video player across desktop, mobile, and smart TV. Pilotly is a
+  managed-service SaaS with no public developer API surface; clients named on the site include Netflix,
+  Amazon, Sony, Paramount, Warner Bros. Discovery, and Audible. Surfaced as a portfolio company of
+  500 Global and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/pilotly/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.pilot.ly/assets/images/logos/pilotly-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Market Research
+- Audience Testing
+- Content Testing
+- Media
+- Video
+- Consumer Insights
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://pilot.ly
+- type: About
+  url: https://www.pilot.ly/our-story
+- type: Support
+  url: https://www.pilot.ly/contact-us
+- type: PrivacyPolicy
+  url: https://www.pilot.ly/privacy-policy
+- type: TermsOfService
+  url: https://www.pilot.ly/terms-of-service
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
